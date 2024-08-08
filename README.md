@@ -49,7 +49,7 @@ Specify one or more fasta files in the 'inputPathList' parameter. Sequences from
 
 ```py
 # Input your FASTA file, the example file can be found in data/mlData/DS1/test_neg.FASTA
-inputPathList = ['../data/mlData/DS1/test_neg.FASTA', '../data/mlData/DS1/test_pos.FASTA']
+inputPathList = ['../data/mlData/DS1/AAPNegTest_DS1.FASTA', '../data/mlData/DS1/AAPPosTest_DS1.FASTA']
 ```
 
 
