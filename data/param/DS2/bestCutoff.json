@@ -1,0 +1,1 @@
+{"lightgbm": 0.4, "rf": 0.5, "catboost": 0.5, "gbc": 0.4, "lda": 0.8, "knn": 0.3, "et": 0.3, "mlp": 0.9, "qda": 0.8}
