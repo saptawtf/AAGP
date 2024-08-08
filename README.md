@@ -1,7 +1,7 @@
 # AAGP
 AAGP:A machine learning framework for prediction of anti-aging peptides using diverse physicochemical and compositional features
 # Description
-This is the source code of AAGP, a machine learning predictor for prediction of anti-aging peptides (manuscript under review). The first stage is the optimization of feature vector, and the second stage is the optimization of machine learning models. The trained models are also included in this package, facilitating prediction on a given data set.
+This is the source code of AAGP, a machine learning predictor for prediction of anti-aging peptides (manuscript under review). The first stage is the optimization of feature vector, and the second stage is the hyperparameter tuning of the machine learning models. The trained models are also included in this package, and can help in prediction on a given peptide data set.
 
 # Installation
 Requiremenets:
