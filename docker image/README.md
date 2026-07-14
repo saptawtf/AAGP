@@ -30,11 +30,12 @@ If you have more than two FASTA files:
 docker run --rm -v "YOUR_FOLDER:/app/data/output" takoyakiyee/aagp-predictor-01:latest python main_predict.py --dataset DS1 --input /app/data/output/YOUR_FIRST_FASTA_NAME.fasta /app/data/output/YOUR_SECOND_FASTA_NAME.fasta
 ```
 ### 2.1 Note:
-1. Replace `<span style="color:red">YOUR_FOLDER</span>` with the actual absolute path to your local folder. 
-2. Replace `span style="color:red">YOUR_FASTA_NAME.fasta</span>` with the exact name of your FASTA file.
-3. Replace `<span style="color:red">YOUR_FIRST_FASTA_NAME.fasta</span>` and `<span style="color:red">YOUR_SECOND_FASTA_NAME.fasta</span>` with the exact name of your FASTA file.
-3. When `<span style="color:red">--dataset DS1</span>`: the program will use models trained on DS1, corresponding features and their normalization scaler to process data and perform prediction.
-4. When `<span style="color:red">-dataset DS2</span>`: the program will use models trained on DS2, corresponding features and their normalization scaler to process data and perform prediction.
+> 1. Replace 🔴 **`YOUR_FOLDER`** with the actual absolute path to your local folder. 
+> 2. Replace 🔴 **`YOUR_FASTA_NAME.fasta`** with the exact name of your FASTA file.
+> 3. Replace 🔴 **`YOUR_FIRST_FASTA_NAME.fasta`** and 🔴 **`YOUR_SECOND_FASTA_NAME.fasta`** with the exact name of your FASTA file.
+
+* When 🔴 **`--dataset DS1`** : the program will use models trained on DS1, corresponding features and their normalization scaler to process data and perform prediction.
+* When 🔴 **`--dataset DS2`** : the program will use models trained on DS2, corresponding features and their normalization scaler to process data and perform prediction.
 
 
 
