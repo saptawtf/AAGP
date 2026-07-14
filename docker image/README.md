@@ -33,11 +33,8 @@ docker run --rm -v "YOUR_FOLDER:/app/data/output" takoyakiyee/aagp-predictor-01:
  1. Replace 🔴 **`YOUR_FOLDER`** with the actual absolute path to your local folder. 
  2. Replace 🔴 **`YOUR_FASTA_NAME.fasta`** with the exact name of your FASTA file.
  3. Replace 🔴 **`YOUR_FIRST_FASTA_NAME.fasta`** and 🔴 **`YOUR_SECOND_FASTA_NAME.fasta`** with the exact name of your FASTA file.
- 4.* When 🔴 **`--dataset DS1`** : the program will use models trained on DS1, corresponding features and their normalization scaler to process data and perform prediction.
- 5.* When 🔴 **`--dataset DS2`** : the program will use models trained on DS2, corresponding features and their normalization scaler to process data and perform prediction.
-
-
-
+ 4. * When 🔴 **`--dataset DS1`** : the program will use models trained on DS1, corresponding features and their normalization scaler to process data and perform prediction.
+ 5. * When 🔴 **`--dataset DS2`** : the program will use models trained on DS2, corresponding features and their normalization scaler to process data and perform prediction.
 ### 📂 Output Files
 binary_vector.csv -- The prediction output in binary format (1 for positive and 0 for negative).
 
